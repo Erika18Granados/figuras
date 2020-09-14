@@ -10,10 +10,11 @@ public class Triangle {
     }
 
     public double getArea() {
-        return 0;
+
+        return ((base*height)/2);
     }
 
     public void draw() {
-        System.out.println("Circulo");
+        System.out.println("triangle");
     }
 }
